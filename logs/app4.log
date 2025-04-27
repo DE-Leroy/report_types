@@ -1,0 +1,9 @@
+2025-04-27 01:00:00 INFO django.request: GET /api/v1/users/ 200 OK [127.0.0.1]
+2025-04-27 01:01:00 ERROR django.request: POST /api/v1/users/ 500 Internal Server Error [127.0.0.1] - ValueError: Invalid data
+2025-04-27 01:02:00 INFO django.request: GET /api/v1/products/ 200 OK [127.0.0.1]
+2025-04-27 01:03:00 DEBUG django.db.backends: SELECT * FROM users;
+2025-04-27 01:04:00 INFO django.request: GET /api/v1/users/ 204 No Content [127.0.0.1]
+2025-04-27 01:05:00 WARNING django.security: SuspiciousOperation: Attempted access to '/admin/' denied.
+2025-04-27 01:06:00 CRITICAL django.core.management: DatabaseError: Connection refused
+2025-04-27 01:07:00 INFO django.request: GET /api/v1/reviews/ 200 OK [127.0.0.1]
+2025-04-27 01:08:00 ERROR django.request: GET /api/v1/reviews/ 404 Not Found [127.0.0.1]
